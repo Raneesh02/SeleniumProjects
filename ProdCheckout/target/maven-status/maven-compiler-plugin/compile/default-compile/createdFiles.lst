@@ -1,0 +1,4 @@
+pageobjects\HomePage.class
+pageobjects\Sunglasses.class
+resources\base.class
+pageobjects\Product.class
