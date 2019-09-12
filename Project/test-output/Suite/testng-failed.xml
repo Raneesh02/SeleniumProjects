@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="common.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="NavbarTest(failed)" parallel="tests">
+    <classes>
+      <class name="Academy.validateNavbar">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="initializeTest"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.validateNavbar -->
+    </classes>
+  </test> <!-- NavbarTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
